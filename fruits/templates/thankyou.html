@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+</head>
+<body>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb-section breadcrumb-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="breadcrumb-text">
+                    <p>Order Successful</p>
+                    <h1>Thank You!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thank You Message -->
+<div class="container mt-5 mb-5 text-center">
+    <h2>Your order has been placed successfully!</h2>
+    <p>We appreciate your business. A confirmation email has been sent to you.</p>
+    <a href="index" class="boxed-btn mt-3">Continue Shopping</a>
+</div>
+
+</body>
+</html>
