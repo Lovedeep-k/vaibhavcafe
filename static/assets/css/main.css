@@ -1,11 +1,4 @@
-/*
-Template Name: Fruitkha - Responsive Bootstrap4 Shop Template
-Template URI: 
-Description: Bootstrap template for fruits or any other kind of shop
-Author: Imran Hossain
-Author URI: https://imransdesign.com/
-Version: 1.0
-*/
+/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -611,11 +604,8 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 200px;
-
-
+  max-width: 150px;
 }
-
 
 ul.sub-menu li:last-child {
   float: none !important;
@@ -641,7 +631,7 @@ ul.sub-menu li:last-child {
 }
 
 .mean-container a.meanmenu-reveal span {
-  background-color: #f1f5f7;
+  background-color: #051922;
 }
 
 .mean-container .mean-nav ul li a {
@@ -675,7 +665,6 @@ nav.mean-nav > ul > li:first-child > a {
 
 .site-logo {
   padding: 6px 0;
-  
 }
 
 .top-header-area.sepherate-header ul li > a, .top-header-area.sepherate-header .header-icons a {
@@ -1365,7 +1354,7 @@ a.mobile-show.search-bar-icon:hover {
 
 ----------------------------------------------------------------------------- */
 .hero-bg {
-  background-image: url(../img/bg--11.jpg);
+  background-image: url(../img/hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1472,15 +1461,15 @@ input[type="submit"] {
 }
 
 .homepage-bg-1 {
-  background-image: url(../img/bg--11.jpg);
+  background-image: url(../img/hero-bg.jpg);
 }
 
 .homepage-bg-2 {
-  background-image: url(../img/bg--12.jpg);
+  background-image: url(../img/hero-bg-2.jpg);
 }
 
 .homepage-bg-3 {
-  background-image: url(../img/bg--13.jpg);
+  background-image: url(../img/hero-bg-3.jpg);
 }
 
 .homepage-slider {
