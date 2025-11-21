@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rmp1qgag-d_z05_d8nk1+ol3p-plzc=ky#95oz)1fxw59b$jau
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vaibhavcafe.onrender.com','localhost''*','127.0.0.1']
+ALLOWED_HOSTS = ['vaibhavcafe.onrender.com','localhost']
 
 
 # Application definition
