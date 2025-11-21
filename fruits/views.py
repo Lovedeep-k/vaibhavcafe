@@ -1,6 +1,8 @@
 from django.shortcuts import render,HttpResponse,redirect
 from .models import*
 
+
+
 # Create your views here.
 def index(request):
     dd=products.objects.all()
@@ -86,6 +88,32 @@ def remove(request,id):
     dd.delete()
     return redirect(cart)
 
-
 def thankyou(request):
     return render(request,'thankyou.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

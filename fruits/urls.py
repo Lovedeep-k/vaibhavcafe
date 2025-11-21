@@ -18,5 +18,9 @@ urlpatterns = [
     path("singlenews",singlenews),
     path("singleproduct/<int:id>",singleproduct),
     path('remove/<int:id>',remove),
-    path('thankyou',thankyou)
-]
+    path('thankyou',thankyou),
+    ]
+
+    
+
+
